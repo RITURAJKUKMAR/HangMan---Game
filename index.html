@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan - Game </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>HangMan</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="game">
+                <p><b> Welcome to HangMan! </b></p>
+                <div class="lifes">
+                    <span>Lives Remaining : <span id="lives"></span></span><br><hr>
+                    <span>Guess Word</span>
+                </div>
+                <div class="display-word">
+                    
+                </div>
+                <div class="gues-letter">
+
+                </div>
+                <div class="input-char">
+                    <form action="" onsubmit="return guessLatter()">
+                        <span>Guess a letter : </span><input type="text" minlength="1" maxlength="1" autofocus><br>
+                        <button type="submit"> SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p><b>Copyright &copy 2017 HangMan.com</b></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
