@@ -49,7 +49,8 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.game .lifes, .gues-letter{
+.game .lifes,
+.gues-letter {
     margin: 20px auto;
     background-color: blanchedalmond;
     width: 250px;
@@ -81,7 +82,7 @@ footer {
     box-shadow: 0 0 10px inset deeppink;
 }
 
-.gues-letter{
+.gues-letter {
     display: none;
 }
 
